@@ -1,7 +1,12 @@
+import React from "react";
 import { useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
 import "./App.css";
+import Contenedor from "./componentes/UT02/posicionamiento/Contenedor.jsx";
+import Contenido from "./componentes/UT02/posicionamiento/Contenido.jsx";
+import MasContenido from "./componentes/UT02/posicionamiento/MasContenido.jsx";
+import Pie from "./componentes/UT02/posicionamiento/Pie.jsx";
 
 function App() {
   const [count, setCount] = useState(0);

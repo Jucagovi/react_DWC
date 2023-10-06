@@ -1,0 +1,10 @@
+#contenedor {
+    width: 99%;
+    border: 1px solid grey;
+    padding: 10px;
+}
+
+.flotante {
+    display: flex;
+    align-items: stretch;
+}
