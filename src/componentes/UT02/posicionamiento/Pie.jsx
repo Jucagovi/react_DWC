@@ -2,6 +2,7 @@ import React from "react";
 import "./Pie.css";
 import imagen from "../../../assets/copyleft.png";
 
+// const Pie = function() {
 const Pie = () => {
   let anyo = new Date().getFullYear();
   return (

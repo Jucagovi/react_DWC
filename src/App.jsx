@@ -8,10 +8,11 @@ import Pie from "./componentes/UT02/posicionamiento/Pie.jsx";
 function App() {
   return (
     <React.Fragment>
-      <Contenedor>
-        <Contenido />
+      <Contenedor titulo='Esto es un nuevo título.' nombre='Feo'>
         <MasContenido />
+        Todo es todo
       </Contenedor>
+      <Contenido />
       <Pie />
     </React.Fragment>
   );
