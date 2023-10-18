@@ -13,11 +13,17 @@ const Clases = () => {
   const ponerAzul = () => {
     contenedor2Ref.current.classList.toggle("azul");
   };
+  const limpiarClases = () => {
+    contenedor1Ref.current.classList.remove("rojo");
+    contenedor2Ref.current.classList.remove("azul");
+  };
+
   return (
     <React.Fragment>
       <div>
         <button onClick={ponerRojo}>Clase rojo</button>
         <button onClick={ponerAzul}>Clase azul</button>
+        <button onClick={limpiarClases}>Limpiar clases</button>
       </div>
       <div>
         <p ref={contenedor1Ref}>Este es el contenedor 1.</p>

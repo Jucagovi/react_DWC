@@ -4,18 +4,23 @@ const Listado = () => {
   // Parte de Javascript creo una referencia a un componente del Virtual DOM.
   const listadoRef = useRef(null);
   // Compruebo qué es esta referencia y su propiedad "current".
-  //console.log(listadoRef);
-  //console.log(listadoRef.current);
+  console.log(listadoRef);
+  console.log(listadoRef.current);
 
   // Funciones para los evento onClick de los botones.
   const anadirElementoInner = () => {
+    // 1.- Se añade el código en innerHTML a través de su referencia.
     listadoRef.current.innerHTML += "<li>Nuevo elemento desde innerHTML.</li>";
   };
 
   const anadirElementoCrear = () => {
+    // 1.- Se crea el nodo del tipo element (<p>).
     let li = document.createElement("li");
+    // 2.- Se crea el nodo tipo texto.
     let texto = document.createTextNode("Nuevo elemento desde createElement.");
+    // 3.- Se introduce el nodo texto en el nodo element.
     li.appendChild(texto);
+    // 4.- Se añade el nodo element a través de su referencia.
     listadoRef.current.appendChild(li);
   };
 
@@ -30,7 +35,7 @@ const Listado = () => {
         </p>
         <p>
           <button onClick={anadirElementoCrear}>
-            Añadir elemento con ccreateElement
+            Añadir elemento con createElement
           </button>
         </p>
         <ul ref={listadoRef}>

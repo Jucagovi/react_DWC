@@ -12,7 +12,11 @@ import Clases from "./componentes/UT03/useRef/Clases";
 function App() {
   return (
     <React.Fragment>
-      <Contenedor titulo='Pruebas con useRef.'></Contenedor>
+      <Contenedor titulo='Pruebas con useRef.'>
+        Este es mi contenedor de siempre.
+        <Clases />
+        <Listado />
+      </Contenedor>
     </React.Fragment>
   );
 }
