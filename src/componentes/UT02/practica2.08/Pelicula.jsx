@@ -1,5 +1,4 @@
 import React from "react";
-import sinImagen from "../assets/imagen-no-encontrada.png";
 
 const Pelicula = (props) => {
   let sinTexto = "Sin especificar";
@@ -7,7 +6,7 @@ const Pelicula = (props) => {
     <React.Fragment>
       <div className='pelicula'>
         <div className='imagen'>
-          <img src={props.cartelera ? props.cartelera : sinImagen} />
+          <img src={props.cartelera} />
         </div>
         <div className='titulo'>
           <h2>{props.nombre ? props.nombre : sinTexto}</h2>
