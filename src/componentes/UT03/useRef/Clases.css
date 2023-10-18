@@ -1,0 +1,11 @@
+.azul {
+    color: white;
+    background-color: blue;
+}
+
+.rojo {
+    color: white;
+    background-color: red;
+}
+
+div {display:grid}
