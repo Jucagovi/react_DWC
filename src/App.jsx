@@ -15,7 +15,6 @@ function App() {
       <Contenedor titulo='Pruebas con useRef.'>
         Este es mi contenedor de siempre.
         <Clases />
-        <Listado />
       </Contenedor>
     </React.Fragment>
   );
