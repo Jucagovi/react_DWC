@@ -1,0 +1,268 @@
+{
+    "peliculas": [
+      {
+        "id": 1,
+        "nombre": "El sexto sentido",
+        "director": "M. Night Shyamalan",
+        "clasificacion": "Drama",
+        "recaudacion": "$245 millones",
+        "cartelera": "https://www.ecartelera.com/carteles/5400/5409/001.jpg",
+        "nota": 8,
+        "actores": [
+          {
+            "nombre": "Marlon Brando",
+            "fechaNacimiento": "03/04/1924",
+            "biografia": "Marlon Brando fue un influyente actor estadounidense...",
+            "imagen": "https://example.com/marlon_brando.jpg"
+          },
+          {
+            "nombre": "Al Pacino",
+            "fechaNacimiento": "25/04/1940",
+            "biografia": "Al Pacino es un actor y director de cine estadounidense...",
+            "imagen": "https://example.com/al_pacino.jpg"
+          },
+          {
+            "nombre": "James Caan",
+            "fechaNacimiento": "26/03/1940",
+            "biografia": "James Caan es un actor estadounidense...",
+            "imagen": "https://example.com/james_caan.jpg"
+          },
+          {
+            "nombre": "Robert Duvall",
+            "fechaNacimiento": "05/01/1931",
+            "biografia": "Robert Duvall es un actor y director estadounidense...",
+            "imagen": "https://example.com/robert_duvall.jpg"
+          },
+          {
+            "nombre": "Diane Keaton",
+            "fechaNacimiento": "05/01/1946",
+            "biografia": "Diane Keaton es una actriz estadounidense...",
+            "imagen": "https://example.com/diane_keaton.jpg"
+          }
+        ],
+        "resumen":"El Dr. Malcom Crowe es un conocido psicólogo infantil obsesionado con el doloroso recuerdo de un joven paciente desequilibrado al que fue incapaz de ayudar. Cole Sear es un aterrorizado y confuso niño de ocho años que necesita tratamiento, El Dr. Crowe ve la oportunidad de redimirse haciendo todo lo posible por ayudarle. Al principio Cole es muy reticente a la ayuda del psicólogo, pero poco a poco, va confiando en el doctor, quien sólo intenta ayudarle. Sin embargo, Malcom no está preparado para conocer la terrible verdad acerca del don sobrenatural de su paciente. Recibe visitas no deseadas de espíritus atormentados. Una de las películas más aclamadas del director indio M. Night Shyamalan."
+      },
+      {
+        "id": 2,
+        "nombre": "Pulp Fiction",
+        "director": "Tarantino",
+        "clasificacion": "Acción",
+        "recaudacion": "$2.2 mil millones",
+        "cartelera": "https://www.ecartelera.com/carteles/200/286/001.jpg",
+        "nota": 9,
+        "actores": [
+          {
+            "nombre": "Leonardo DiCaprio",
+            "fechaNacimiento": "11/11/1974",
+            "biografia":
+              "Leonardo DiCaprio es un actor y productor de cine estadounidense...",
+            "imagen": "https://example.com/leonardo_dicaprio.jpg"
+          },
+          {
+            "nombre": "Kate Winslet",
+            "fechaNacimiento": "05/10/1975",
+            "biografia": "Kate Winslet es una actriz británica...",
+            "imagen": "https://example.com/kate_winslet.jpg"
+          },
+          {
+            "nombre": "Billy Zane",
+            "fechaNacimiento": "24/02/1966",
+            "biografia":
+              "Billy Zane es un actor y productor de cine estadounidense...",
+            "imagen": "https://example.com/billy_zane.jpg"
+          },
+          {
+            "nombre": "Kathy Bates",
+            "fechaNacimiento": "28/06/1948",
+            "biografia": "Kathy Bates es una actriz y directora estadounidense...",
+            "imagen": "https://example.com/kathy_bates.jpg"
+          },
+          {
+            "nombre": "Bill Paxton",
+            "fechaNacimiento": "17/05/1955",
+            "biografia":
+              "Bill Paxton fue un actor y director de cine estadounidense...",
+            "imagen": "https://example.com/bill_paxton.jpg"
+          }
+        ],
+        "resumen":"Narrada de una forma no lineal, la historia principal cuenta la historia de Vincent Vega (John Travolta) y Jules Winnfield (Samuel L. Jackson), son dos asesinos a sueldo que tienen como misión recuperar un misterioso maletín. Vincent le confiesa a Jules que Marsellus Wallace (Ving Rhames), su jefe, le ha pedido que cuide de su mujer Mia (Uma Thurman) mientras él está fuera de la ciudad, pero deberá tener cuidado ya que se rumorea que Marsellus mató a un hombre por tocarle los pies a Mia. Por otro lado, Butch Coolidge (Bruce Willis), boxeador, es pagado por Marsellus para perder a propósito en su próxima pelea, pero termina matando sin querer a su contrincante. Lo que provoca que él y sus secuaces le persigan, haciendo que trate de huir de la ciudad. Y por último, la situación del restaurante en la que una mujer y su marido tratan de atracarlo. La película está escrita y dirigida por Quentin Tarantino, y es considerada una de las obras cumbre del cine moderno. Ganó la Palma de Oro en el prestigioso festival de Cannes en 1994 y un Óscar por mejor guion original."
+      },
+      {
+        "id": 3,
+        "nombre": "300",
+        "director": "Zack Snyder",
+        "clasificacion": "Acción",
+        "recaudacion": "$213 millones",
+        "cartelera": "https://www.ecartelera.com/carteles/1300/1370/001.jpg",
+        "nota": 7,
+        "actores": [
+          {
+            "nombre": "John Travolta",
+            "fechaNacimiento": "18/02/1954",
+            "biografia":
+              "John Travolta es un actor, bailarín y cantante estadounidense...",
+            "imagen": "https://example.com/john_travolta.jpg"
+          },
+          {
+            "nombre": "Uma Thurman",
+            "fechaNacimiento": "29/04/1970",
+            "biografia": "Uma Thurman es una actriz y modelo estadounidense...",
+            "imagen": "https://example.com/uma_thurman.jpg"
+          },
+          {
+            "nombre": "Samuel L. Jackson",
+            "fechaNacimiento": "21/12/1948",
+            "biografia":
+              "Samuel L. Jackson es un actor y productor estadounidense...",
+            "imagen": "https://example.com/samuel_jackson.jpg"
+          },
+          {
+            "nombre": "Bruce Willis",
+            "fechaNacimiento": "19/03/1955",
+            "biografia":
+              "Bruce Willis es un actor, productor y cantante estadounidense...",
+            "imagen": "https://example.com/bruce_willis.jpg"
+          },
+          {
+            "nombre": "Ving Rhames",
+            "fechaNacimiento": "12/05/1959",
+            "biografia": "Ving Rhames es un actor estadounidense...",
+            "imagen": "https://example.com/ving_rhames.jpg"
+          }
+        ],
+        "resumen":"Basada en la épica novela gráfica de Frank Miller, 300 narra una vez más de manera atroz la antigua Batalla de Termópilas, en la que el rey Leónidas (Gerard Butler), junto con 300 espartanos, luchó a muerte contra el Emperador Jerjes y su gran ejército persa. Haciendo frente a insuperables adversidades, el valor y sacrificio de estos hombres inspiró a toda Grecia para unirse contra el enemigo persa, y así decir basta a esa situación en favor de la democracia. La película hace cobrar vida a la aclamada novela gráfica de Miller (Sin City) al combinar la acción real con fondos digitales que reproducen su marcada visión de este antiguo cuento histórico."
+      },
+      {
+        "id": 4,
+        "nombre": "El silencio de los corderos",
+        "director": "Jonathan Demme",
+        "clasificacion": "Drama",
+        "recaudacion": "$678 millones",
+        "cartelera": "https://www.ecartelera.com/carteles/2500/2508/001.jpg",
+        "nota": 8,
+        "actores": [
+          {
+            "nombre": "Tom Hanks",
+            "fechaNacimiento": "09/07/1956",
+            "biografia":
+              "Tom Hanks es un actor y productor de cine estadounidense...",
+            "imagen": "https://example.com/tom_hanks.jpg"
+          },
+          {
+            "nombre": "Robin Wright",
+            "fechaNacimiento": "08/04/1966",
+            "biografia": "Robin Wright es una actriz estadounidense...",
+            "imagen": "https://example.com/robin_wright.jpg"
+          },
+          {
+            "nombre": "Gary Sinise",
+            "fechaNacimiento": "17/03/1955",
+            "biografia":
+              "Gary Sinise es un actor, director y músico estadounidense...",
+            "imagen": "https://example.com/gary_sinise.jpg"
+          },
+          {
+            "nombre": "Sally Field",
+            "fechaNacimiento": "06/11/1946",
+            "biografia": "Sally Field es una actriz y directora estadounidense...",
+            "imagen": "https://example.com/sally_field.jpg"
+          },
+          {
+            "nombre": "Haley Joel Osment",
+            "fechaNacimiento": "10/04/1988",
+            "biografia":
+              "Haley Joel Osment es un actor y productor estadounidense...",
+            "imagen": "https://example.com/haley_joel_osment.jpg"
+          }
+        ],
+        "resumen":"El FBI busca a un asesino en serie, le llaman Buffalo Bill, todas las víctimas a las que mata este asesino son chicas adolescentes, pero sólo las mata después de prepararlas minuciosamente y arrancarles la piel. Para poder atraparlo contactan con Clarice Starling, una brillante licenciada universitaria, experta en conductas psicópatas, que aspira a formar parte del FBI. Siguiendo las instrucciones de su jefe, Jack Crawford, Clarice visita la cárcel de alta seguridad donde el gobierno mantiene encerrado a Hanibal Lecter, antiguo psicoanalista y asesino, dotado de una inteligencia superior a la normal. Su misión será intentar sacarle información sobre los patrones de conducta de Buffalo Bill."
+      },
+      {
+        "id": 5,
+        "nombre": "Forrest Gump",
+        "director": "Robert Zemeckis",
+        "clasificacion": "Comedia",
+        "recaudacion": "$463 millones",
+        "cartelera": "https://www.ecartelera.com/carteles/3400/3475/001.jpg",
+        "nota": 9,
+        "actores": [
+          {
+            "nombre": "Keanu Reeves",
+            "fechaNacimiento": "02/09/1964",
+            "biografia": "Keanu Reeves es un actor y productor de cine canadiense...",
+            "imagen": "https://example.com/keanu_reeves.jpg"
+          },
+          {
+            "nombre": "Carrie-Anne Moss",
+            "fechaNacimiento": "21/08/1967",
+            "biografia": "Carrie-Anne Moss es una actriz canadiense...",
+            "imagen": "https://example.com/carrie_anne_moss.jpg"
+          },
+          {
+            "nombre": "Laurence Fishburne",
+            "fechaNacimiento": "30/07/1961",
+            "biografia":
+              "Laurence Fishburne es un actor, director y productor estadounidense...",
+            "imagen": "https://example.com/laurence_fishburne.jpg"
+          },
+          {
+            "nombre": "Hugo Weaving",
+            "fechaNacimiento": "04/04/1960",
+            "biografia": "Hugo Weaving es un actor británico-australiano...",
+            "imagen": "https://example.com/hugo_weaving.jpg"
+          },
+          {
+            "nombre": "Joe Pantoliano",
+            "fechaNacimiento": "12/09/1951",
+            "biografia": "Joe Pantoliano es un actor estadounidense...",
+            "imagen": "https://example.com/joe_pantoliano.jpg"
+          }
+        ],
+        "resumen":"Forrest Gump es un tipo con discapacidades mentales no muy profundas y algunas alteraciones motoras, pero a pesar de todo, la persistencia y la bondad le llevará a conseguir una gran fortuna, estar sujeto al clamor popular y codearse con las más altas esferas sociales y políticas del país . Forrest se sienta en un banco y habla de sus experiencias con los extranjeros que se sientan con él. Y es que Forrest ha vivido gran parte de la historia reciente de los Estados Unidos de América. Y además de todo eso tiene una gran historia que contar acerca de su mejor amigo, Bubba, a quien conoce en la guerra de Vietnam. Y el amor de su vida que conoce desde que eran niños, Jenny. Forrest Gump no es un tipo inteligente, pero ya que es un buen tipo."
+      },
+      {
+        "id": 6,
+        "nombre": "Concursante",
+        "director": "Rodrigo Cortés",
+        "clasificacion": "Drama",
+        "recaudacion": "$47 millones",
+        "cartelera": "https://www.ecartelera.com/carteles/1300/1364/001.jpg",
+        "nota": 10,
+        "actores": [
+          {
+            "nombre": "Jack Nicholson",
+            "fechaNacimiento": "22/04/1937",
+            "biografia": "Jack Nicholson es un actor y cineasta estadounidense...",
+            "imagen": "https://example.com/jack_nicholson.jpg"
+          },
+          {
+            "nombre": "Shelley Duvall",
+            "fechaNacimiento": "07/07/1949",
+            "biografia": "Shelley Duvall es una actriz estadounidense...",
+            "imagen": "https://example.com/shelley_duvall.jpg"
+          },
+          {
+            "nombre": "Danny Lloyd",
+            "fechaNacimiento": "13/01/1973",
+            "biografia": "Danny Lloyd es un actor estadounidense...",
+            "imagen": "https://example.com/danny_lloyd.jpg"
+          },
+          {
+            "nombre": "Scatman Crothers",
+            "fechaNacimiento": "23/05/1910",
+            "biografia": "Scatman Crothers fue un actor y músico estadounidense...",
+            "imagen": "https://example.com/scatman_crothers.jpg"
+          },
+          {
+            "nombre": "Barry Nelson",
+            "fechaNacimiento": "16/04/1917",
+            "biografia": "Barry Nelson fue un actor estadounidense...",
+            "imagen": "https://example.com/barry_nelson.jpg"
+          }
+        ],
+        "resumen":"Martín Circo Martín es el afortunado ganador del mayor concurso de la historia de la televisión: un premio valorado en tres millones de euros. En esta ácida sátira de la sociedad actual, el golpe de suerte de Martín dará un vuelco a su vida convirtiéndola en una auténtica pesadilla."
+      }
+    ]
+  }
+    
+    

@@ -1,9 +1,9 @@
 import React from "react";
 import Pelicula from "./Pelicula";
-import fichero from "./objetos/UT02Ejercicio2.json";
+import fichero from "./objetos/peliculas.json";
 
 const Peliculas = () => {
-  console.log(fichero.peliculas); // Compruebo dónde está el array dentro del objeto.
+  //console.log(fichero.peliculas); // Se comprueba dónde está el array dentro del objeto.
   return (
     <React.Fragment>
       <div className='peliculas'>
