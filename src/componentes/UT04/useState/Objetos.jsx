@@ -20,12 +20,31 @@ function Objetos() {
 
   return (
     <React.Fragment>
-      <button onClick={addObjeto}>Añadir objeto</button>
+      <button
+        onClick={() => {
+          addObjeto();
+        }}
+      >
+        Añadir objeto
+      </button>
+      <div>
+        {prueba.length ? (
+          prueba.map((valor, indice, array) => {
+            return (
+              <p key={indice}>
+                {valor.apellidos}, {valor.nombre}
+              </p>
+            );
+          })
+        ) : (
+          <p>No hay usuarios/as.</p>
+        )}
+      </div>
       {/* Imprimir el estado con formato JSON (Objeto) para comprobar. */}
-      <div className='estado'>
+      {/* <div className='estado'>
         <p>Valor del estado actual.</p>
         <pre>{JSON.stringify(prueba, null, 2)}</pre>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }

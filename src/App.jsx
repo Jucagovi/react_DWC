@@ -11,7 +11,7 @@ function App() {
       <h2>useState en React</h2>
       {/* <Contador /> */}
       {/* <Mensaje /> */}
-      {/* <Objetos /> */}
+      <Objetos />
       {/* <Verduras /> */}
     </React.Fragment>
   );
