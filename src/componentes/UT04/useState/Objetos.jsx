@@ -36,10 +36,10 @@ function Objetos() {
         )}
       </div>
       {/* Imprimir el estado con formato JSON (Objeto) para comprobar. */}
-      <div className='estado'>
+      {/* <div className='estado'>
         <p>Valor del estado actual.</p>
         <pre>{JSON.stringify(prueba, null, 2)}</pre>
-      </div>
+      </div> */}
     </React.Fragment>
   );
 }
