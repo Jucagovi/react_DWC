@@ -3,6 +3,7 @@ import {
   generarNombreAleatorio,
   generarApellidosAleatorio,
 } from "../../../bibliotecas/funciones.js";
+import ObjetosMuestra from "./ObjetosMuestra.jsx";
 
 function Objetos() {
   const estadoInicial = [];
@@ -21,6 +22,19 @@ function Objetos() {
   return (
     <React.Fragment>
       <button onClick={addObjeto}>Añadir objeto</button>
+      <div>
+        {prueba.length ? (
+          prueba.map((valor, indice) => {
+            return (
+              <p key={indice}>
+                {valor.apellidos}, {valor.nombre}
+              </p>
+            );
+          })
+        ) : (
+          <p>No existen usuarios/as todavía.</p>
+        )}
+      </div>
       {/* Imprimir el estado con formato JSON (Objeto) para comprobar. */}
       <div className='estado'>
         <p>Valor del estado actual.</p>
