@@ -1,7 +1,7 @@
 import React, { Fragment } from "react";
 
 const ValorEstado = (props) => {
-  const { estadoMostrar } = props.estado;
+  const { estadoMostrar } = props;
   return (
     <Fragment>
       <div className='estado'>

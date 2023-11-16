@@ -11,9 +11,9 @@ function App() {
   return (
     <React.Fragment>
       <h1>Usando estados en React</h1>
-      <Objetos />
+      {/* <Objetos /> */}
       {/* <Formulario /> */}
-      {/* <FormularioDiscente /> */}
+      <FormularioDiscente />
     </React.Fragment>
   );
 }

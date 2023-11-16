@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import ValorEstado from "../useState/ValorEstado";
 
 function FormularioDiscente() {
   // Crear un estado inicial (objeto con valores por defecto para evitar errores al dibujar).
@@ -58,10 +59,7 @@ function FormularioDiscente() {
         </div>
         <br />
         {/* Imprimir el estado con formato JSON (Objeto) para comprobar. */}
-        <div className='estado'>
-          <p>Valor del estado actual.</p>
-          <pre>{JSON.stringify(discente, null, 3)}</pre>
-        </div>
+        <ValorEstado estadoMostrar={discente} />
       </div>
     </React.Fragment>
   );

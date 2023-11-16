@@ -18,8 +18,8 @@ function Formulario() {
             type='text'
             placeholder='Escribe tu nombre.'
             value={nombre}
-            onChange={(e) => {
-              setNombre(e.target.value);
+            onChange={(evento) => {
+              setNombre(evento.target.value);
             }}
           />
           <br />
@@ -30,8 +30,8 @@ function Formulario() {
             type='text'
             placeholder='Escribe tus apellidos.'
             value={apellidos}
-            onChange={(e) => {
-              setApellidos(e.target.value);
+            onChange={(evento) => {
+              setApellidos(evento.target.value);
             }}
           />
           <br />
@@ -42,8 +42,8 @@ function Formulario() {
             type='text'
             placeholder='Escribe tu correo electrónico.'
             value={correo}
-            onChange={(e) => {
-              setCorreo(e.target.value);
+            onChange={(evento) => {
+              setCorreo(evento.target.value);
             }}
           />
         </form>
