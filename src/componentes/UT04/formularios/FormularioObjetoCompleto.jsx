@@ -1,7 +1,7 @@
 import React, { Fragment, useState } from "react";
 import ValorEstado from "../useState/ValorEstado.jsx";
 
-function FormularioDiscenteCompleto() {
+function FormularioObjetoCompleto() {
   // Crear un estado inicial (objeto con valores por defecto para evitar errores al dibujar).
   const valoresIniciales = {
     nombre: "",
@@ -234,4 +234,4 @@ es preferible utilizar una biblioteca externa como Formik (https://formik.org/).
 Esto liberará de todo el siguiente código.
 */
 
-export default FormularioDiscenteCompleto;
+export default FormularioObjetoCompleto;

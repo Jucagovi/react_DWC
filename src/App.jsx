@@ -5,15 +5,18 @@ import Mensaje from "./componentes/UT04/useState/Mensaje.jsx";
 import Objetos from "./componentes/UT04/useState/Objetos.jsx";
 import Verduras from "./componentes/UT04/useState/Verduras.jsx";
 import Formulario from "./componentes/UT04/formularios/Formulario.jsx";
-import FormularioDiscente from "./componentes/UT04/formularios/FormularioDiscente.jsx";
+import FormularioObjetoControl from "./componentes/UT04/formularios/FormularioObjetoControl.jsx";
+import FormularioObjeto from "./componentes/UT04/formularios/FormularioObjeto.jsx";
+import FormularioObjetoCompleto from "./componentes/UT04/formularios/FormularioObjetoCompleto.jsx";
 
 function App() {
   return (
     <React.Fragment>
-      <h1>Usando estados en React</h1>
-      {/* <Objetos /> */}
+      <h1>Usando estados en React con formularios.</h1>
       {/* <Formulario /> */}
-      <FormularioDiscente />
+      {/* <FormularioObjeto /> */}
+      {/* <FormularioObjetoCompleto /> */}
+      <FormularioObjetoControl />
     </React.Fragment>
   );
 }

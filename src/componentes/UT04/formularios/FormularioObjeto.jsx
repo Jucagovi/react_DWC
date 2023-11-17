@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import ValorEstado from "../useState/ValorEstado";
 
-function FormularioDiscente() {
+function FormularioObjeto() {
   // Crear un estado inicial (objeto con valores por defecto para evitar errores al dibujar).
   const valoresIniciales = {
     nombre: "",
@@ -65,4 +65,4 @@ function FormularioDiscente() {
   );
 }
 
-export default FormularioDiscente;
+export default FormularioObjeto;
