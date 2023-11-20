@@ -33,7 +33,7 @@ const generarApellidosAleatorio = () => {
 };
 
 const generarVerduraAleatorio = () => {
-  // Listas de apellidos
+  // Listas de verduras
   let verduras = [
     "Acelga",
     "Ajo",
@@ -61,12 +61,46 @@ const generarVerduraAleatorio = () => {
     "Zanahoria",
   ];
 
-  // Devolver un apellido aleatorio
+  // Devolver una verdura aleatoria
   return verduras[Math.floor(Math.random() * verduras.length)];
+};
+
+const generarFrutaAleatorio = () => {
+  // Listas de frutas
+  var frutas = [
+    "Manzana",
+    "Plátano",
+    "Fresa",
+    "Uva",
+    "Kiwi",
+    "Naranja",
+    "Mango",
+    "Pera",
+    "Cereza",
+    "Sandía",
+    "Piña",
+    "Melón",
+    "Limón",
+    "Coco",
+    "Granada",
+    "Mandarina",
+    "Fruta de la pasión",
+    "Frambuesa",
+    "Papaya",
+    "Melocotón",
+  ];
+
+  // Devolver una fruta aleatoria
+  return frutas[Math.floor(Math.random() * frutas.length)];
 };
 
 const generarUuidAleatorio = () => {
   return crypto.randomUUID;
+};
+
+// Función para generar un número aleatorio.
+const generarNumeroAleatorio = (min, max) => {
+  return Math.floor(Math.random() * (max - min + 1) + min);
 };
 
 export {
@@ -74,4 +108,6 @@ export {
   generarApellidosAleatorio,
   generarVerduraAleatorio,
   generarUuidAleatorio,
+  generarNumeroAleatorio,
+  generarFrutaAleatorio,
 };
