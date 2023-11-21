@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import EffectDOMColoricos from "./EffectDOMColoricos.jsx";
+import EffectDOMContador from "./EffectDOMContador.jsx";
 
 const EffectDOM = () => {
   /**
@@ -21,7 +22,7 @@ const EffectDOM = () => {
   return (
     <React.Fragment>
       <div>
-        <h2>Colores</h2>
+        <h2>Desmontando componentes.</h2>
         <button
           onClick={() => {
             setMostrar(!mostrar);
@@ -30,7 +31,10 @@ const EffectDOM = () => {
           Quitar/poner colores
         </button>
         {/* Se utilia el operador lógico para montar/demontar el componente. */}
-        {mostrar && <EffectDOMColoricos />}
+        {/* {mostrar && <EffectDOMColoricos />} */}
+        {/* Las dos siguientes líneas realizan la misma operación: mostrar/ocultar el componente. */}
+        {/* {mostrar ? <EffectDOMContador /> : null} */}
+        {mostrar && <EffectDOMContador />}
       </div>
     </React.Fragment>
   );
