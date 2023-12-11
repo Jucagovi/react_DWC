@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { getDatos } from "../componentes/UT05/biblioteca/traerDatos.js";
+import { getDatos } from "../bibliotecas/traerDatos.js";
 
 const useDatosManipular = (url) => {
   const valoresInciciales = [];

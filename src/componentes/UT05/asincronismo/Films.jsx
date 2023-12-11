@@ -1,6 +1,6 @@
 import React, { useState, useEffect, Fragment } from "react";
 import Film from "./Film.jsx";
-import { getDatos } from "../biblioteca/traerDatos.js";
+import { getDatos } from "../../../bibliotecas/traerDatos.js";
 
 const Films = () => {
   const valoresInciciales = [];
