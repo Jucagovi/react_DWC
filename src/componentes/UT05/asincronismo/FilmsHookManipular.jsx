@@ -5,7 +5,7 @@ import useDatosManipular from "../../../hooks/useDatosManipular.js";
 
 const FilmsHookManipular = () => {
   /** Se extrae la información del hook. */
-  const { datos, setDatos } = useDatosManipular(
+  const { datos, borrarDatos } = useDatosManipular(
     "https://swapi.py4e.com/api/films"
   );
   return (
@@ -14,7 +14,7 @@ const FilmsHookManipular = () => {
       <p>
         <button
           onClick={() => {
-            setDatos([]);
+            borrarDatos();
           }}
         >
           Borrar películas

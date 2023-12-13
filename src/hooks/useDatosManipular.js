@@ -18,12 +18,21 @@ const useDatosManipular = (url) => {
     }
   };
 
+  /** Las funciones que modifican el estado nunca deben salir
+   * componente donde se ha creado ese estado.
+   * La mejor manera de hacer esto es exportando una función
+   * que ejecute, en su interior, el setter del estado.
+   */
+  const borrarDatos = () => {
+    setDatos(valoresInciciales);
+  };
+
   useEffect(() => {
     /** Se obtienen los datos */
     obtenerDatos();
   }, []);
 
-  return { datos, setDatos };
+  return { datos, borrarDatos };
 };
 
 export default useDatosManipular;
