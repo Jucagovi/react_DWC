@@ -1,19 +1,14 @@
-import React from "react";
+import React, { Fragment } from "react";
 import "./App.css";
-import Films from "./componentes/UT05/asincronismo/Films.jsx";
-import FilmsHook from "./componentes/UT05/asincronismo/FilmsHook.jsx";
-import FilmsHookManipular from "./componentes/UT05/asincronismo/FilmsHookManipular.jsx";
-import FilmsHookSituacion from "./componentes/UT05/asincronismo/FilmsHookSituacion.jsx";
+import DatosContexto from "./contextos/DatosContexto";
+import Personajes from "./componentes/UT05/contexto/Personajes.jsx";
+import Planetas from "./componentes/UT05/contexto/Planetas.jsx";
 
 function App() {
   return (
-    <React.Fragment>
-      <h1>Usando asincronismo en React.</h1>
-      <Films />
-      {/* <FilmsHook /> */}
-      {/* <FilmsHookManipular /> */}
-      {/* <FilmsHookSituacion /> */}
-    </React.Fragment>
+    <Fragment>
+      <h1>Contextos con useContext.</h1>
+    </Fragment>
   );
 }
 
