@@ -11,7 +11,7 @@ const Films = () => {
 
   /** Se declara una función asíncrona para obtener los datos. */
   const obtenerDatos = async () => {
-    /** Se gestionan los errores con un try-catch */
+    /** Se gestionan los errores con un try-catch. */
     try {
       const informacion = await getDatos(url);
       setFilms(informacion);
@@ -19,7 +19,7 @@ const Films = () => {
       throw error;
     }
 
-    /** otra manera de gestionar errores: */
+    /** Otra manera de gestionar errores: */
     /* const datos = await getDatos(url).catch((error) => {
       return error;
     }); */
