@@ -3,7 +3,8 @@ import useContextoLocal from "../../hooks/useContextoLocal.js";
 import ValorObjeto from "./ValorObjeto.jsx";
 
 const AlmacenamientoLocal = () => {
-  const { datos, iniciarDatos, obtenerDatos, borrarDatos } = useContextoLocal();
+  const { datos, situacion, iniciarDatos, obtenerDatos, borrarDatos } =
+    useContextoLocal();
   return (
     <Fragment>
       <h2>Uso de Local/Session Storage.</h2>
@@ -40,6 +41,7 @@ const AlmacenamientoLocal = () => {
           <p>No se han encontrado datos.</p>
         )}
       </div>
+      <div className='situacion'>{situacion}</div>
     </Fragment>
   );
 };

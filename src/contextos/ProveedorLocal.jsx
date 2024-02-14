@@ -16,7 +16,6 @@ const ProveedorLocal = ({ children }) => {
    *  removeItem --> indica que valor hay que eliminar (recibe un key cmo parámetro).
    *  key(n)     --> devuelve la clave enésima posición de la base de datos.
    *  clear()    --> borrar la base de datos.
-   *  storage    --> evento que se ejecuta cuando hay cambios en la base de datos.
    *
    */
 
@@ -39,6 +38,7 @@ const ProveedorLocal = ({ children }) => {
   /** Creación de los estados para el contexto. */
   const [datos, setDatos] = useState(valorInicial);
   const [error, setError] = useState(cadenaInicial);
+  const [situacion, setSituacion] = useState(cadenaInicial);
 
   /** Se declaran funciones asíncronas para obtener datos. */
 
@@ -47,6 +47,7 @@ const ProveedorLocal = ({ children }) => {
       const valoresLocal = JSON.parse(localStorage.getItem("datosAlmacenados"));
       setDatos(valoresLocal);
       console.log("Datos obtenidos con éxito.");
+      setSituacion("Datos obtenidos con éxito.");
     } catch (error) {
       setError(error.message);
     }
@@ -56,6 +57,7 @@ const ProveedorLocal = ({ children }) => {
     try {
       localStorage.setItem("datosAlmacenados", JSON.stringify(datos));
       console.log("Datos guardados con éxito.");
+      setSituacion("Datos guardados con éxito.");
     } catch (error) {
       setError(error.message);
     }
@@ -64,7 +66,8 @@ const ProveedorLocal = ({ children }) => {
   const iniciarDatos = () => {
     try {
       localStorage.setItem("datosAlmacenados", JSON.stringify(feosIniciales));
-      console.log("Datos iniciados correctamente.");
+      console.log("Datos iniciados con éxito.");
+      setSituacion("Datos iniciados con éxito.");
     } catch (error) {
       setError(error.message);
     }
@@ -74,7 +77,8 @@ const ProveedorLocal = ({ children }) => {
     try {
       localStorage.clear();
       setDatos(valorInicial);
-      console.log("Datos eliminados correctamengte.");
+      console.log("Datos eliminados con éxito.");
+      setSituacion("Datos eliminados con éxito.");
     } catch (error) {
       setError(error.message);
     }
@@ -84,6 +88,7 @@ const ProveedorLocal = ({ children }) => {
 
   const datosAExportar = {
     datos,
+    situacion,
     obtenerDatos,
     guardarDatos,
     iniciarDatos,
